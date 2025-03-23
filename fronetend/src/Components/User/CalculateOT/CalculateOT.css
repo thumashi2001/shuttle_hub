@@ -1,0 +1,43 @@
+.overtime-calculator {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.overtime-calculator h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.overtime-calculator div {
+  margin-bottom: 15px;
+}
+
+.overtime-calculator label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.overtime-calculator input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.overtime-calculator button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.overtime-calculator button:hover {
+  background-color: #2980b9;
+}

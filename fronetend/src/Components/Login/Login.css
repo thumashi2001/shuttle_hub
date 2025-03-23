@@ -1,0 +1,70 @@
+.LoginMain {
+    background-color: rgb(35, 35, 35);
+    color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .LoginH1 {
+    color: rgb(241, 102, 94);
+    font-size: 2rem;
+  }
+  
+  .LoginForm {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 88, 110);
+    color: #f5f5f5;
+    margin-top: 10px;
+  }
+  
+  .signupInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 88, 110);
+    color: #f5f5f5;
+  }
+  .LoginButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 102, 94);
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .LoginButton:hover {
+    background-color: #f56751;
+  }
+  
+  span {
+    color: #f5f5f5;
+  }
+  
+  .LoginSignupText{
+    color: whitesmoke;
+    
+  }
+
+  .LoginSignupButton{
+    text-decoration: underline;
+    outline: none;
+    background: none;
+    border: none;
+    color: #f56751;
+  }

@@ -1,0 +1,69 @@
+.update-user-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.update-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+.update-user-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button,
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-button {
+  background-color: #f44336; 
+  color: white;
+}
+
+.submit-button {
+  background-color: #007bff; 
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #d32f2f; 
+}
+
+.submit-button:hover {
+  background-color: #0056b3; 
+}

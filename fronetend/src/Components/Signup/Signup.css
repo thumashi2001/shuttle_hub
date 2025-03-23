@@ -1,0 +1,68 @@
+.SignupMain {
+    background-color: rgb(35, 35, 35);
+    color: #f7f2f2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .SignupH1 {
+    color: rgb(241, 102, 94);
+    font-size: 2rem;
+  }
+  
+  .SignupForm {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  
+  
+  }
+  
+  .SignupInput {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(77, 88, 110);
+    color: #f5f5f5;
+    margin-top: 10px;
+  }
+  
+  .SignupInput::placeholder {
+    color: #f5f5f5;
+  }
+  
+  .SignupButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 102, 94);
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .SignupButton:hover {
+    background-color: #f56751;
+  }
+  
+  span {
+    color: #f5f5f5;
+  }
+  
+  .SignupLoginText {
+    color: #f5f5f5;
+  }
+  
+  .SignupLoginButton {
+    text-decoration: underline;
+    outline: none;
+    background: none;
+    border: none;
+    color: #f56751;
+    cursor: pointer;
+  }

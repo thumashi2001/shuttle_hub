@@ -112,11 +112,7 @@ export const products = [
         _id: "aaaab",
         name: "ASTROX",
         description: "Made with high-quality graphite and Nanomesh Neo technology, the Yonex ASTROX 02 offers superior flexibility and durability",
-        price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Badminton Equipment",
-        subCategory: "Rackets& Shuttlecocks",
-        sizes: ["White", "Black", "Red"],
+
         date: 1716621345448,
         bestseller: true
     },
@@ -135,7 +131,7 @@ export const products = [
     {
         _id: "aaaad",
         name: "YONEX Pro Tournament Bag ",
-        description: "Travel smart, play hard! Yonex Pro Tournament Bags offer spacious compartments, premium durability,.",
+
         price: 410,
         image: [p_img4],
         category: "Badminton Accessories",
@@ -163,7 +159,7 @@ export const products = [
         price: 140,
         image: [p_img6],
         category: "Badminton Apparel",
-        subCategory: "Topwear",
+
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
         bestseller: true
@@ -351,7 +347,7 @@ export const products = [
     {
         _id: "aaaav",
         name: "Adidas Wucht P8",
-        description: "Adidas Wucht P8.",
+<<<<<
         price: 200,
         image: [p_img22],
         category: "Badminton Apparel",
@@ -386,116 +382,6 @@ export const products = [
     },
     {
         _id: "aaaay",
-        name: "",
-        description: ".",
-        price: 190,
-        image: [p_img25],
-        category: "Badminton Apparel",
-        subCategory: "Shoes",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716638745448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaz",
-        name: "Li-Ning Shadow Blade ",
-        description: "Sleek design with excellent grip",
-        price: 220,
-        image: [p_img26],
-        category: "Badminton Apparel",
-        subCategory: "Shoes",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716639845448,
-        bestseller: false
-    },
-    {
-        _id: "aaaba",
-        name: "Asics Gel Blade 8",
-        description: " Gel cushioning for added comfort",
-        price: 200,
-        image: [p_img27],
-        category: "Badminton Apparel",
-        subCategory: "Shoes",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716640945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabb",
-        name: "Babolat Shadow Tour ",
-        description: "Lightweight and breathable upper",
-        price: 230,
-        image: [p_img28],
-        category: "Badminton Apparel",
-        subCategory: "Shoes",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716642045448,
-        bestseller: false
-    },
-    {
-        _id: "aaabc",
-        name: "Yonex Power Cushion  Z3",
-        description: " Extra soft cushioning for long matches",
-        price: 210,
-        image: [p_img29],
-        category: "Badminton Apparel",
-        subCategory: "Shoes",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716643145448,
-        bestseller: false
-    },
-    {
-        _id: "aaabd",
-        name: "Yonex Nanoflare 800",
-        description: "Lightweight and fast racket designed for speed and precision.",
-        price: 240,
-        image: [p_img30],
-        category: "Badminton Equipment",
-        subCategory: "Rackets& Shuttlecocks",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716644245448,
-        bestseller: false
-    },
-    {
-        _id: "aaabe",
-        name: "Victor Auraspeed 90K ",
-        description: "Provides excellent repulsion and quick reaction for doubles play",
-        price: 220,
-        image: [p_img31],
-        category: "Badminton Equipment",
-        subCategory: "Rackets& Shuttlecocks",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716645345448,
-        bestseller: false
-    },
-    {
-        _id: "aaabf",
-        name: "Li-Ning 75",
-        description: "Aerodynamic design for powerful and controlled shots",
-        price: 250,
-        image: [p_img32],
-        category: "Badminton Equipment",
-        subCategory: "Rackets& Shuttlecocks",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716646445448,
-        bestseller: false
-    },
-    {
-        _id: "aaabg",
-        name: "Apacs Feather Weight 55 ",
-        description: "Extremely lightweight racket for effortless swings and agility.",
-        price: 230,
-        image: [p_img33],
-        category: "Badminton Equipment",
-        subCategory: "Rackets& Shuttlecocks",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716647545448,
-        bestseller: false
-    },
-    {
-        _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 260,
         image: [p_img34],
         category: "Badminton Accessories",
@@ -518,32 +404,7 @@ export const products = [
     },
     {
         _id: "aaabj",
-        name: " Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img36],
-        category: "Badminton Accessories",
-        subCategory: "Badminton Bags &Sports Wear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716650845448,
-        bestseller: false
-    },
-    {
-        _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Badminton Accessories",
-        subCategory: "Badminton Bags &Sports Wear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716651945448,
-        bestseller: false
-    },
-    {
-        _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 280,
         image: [p_img38],
         category: "Badminton Accessories",
@@ -566,8 +427,7 @@ export const products = [
     },
     {
         _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 290,
         image: [p_img40],
         category: "Badminton Accessories",
@@ -578,8 +438,7 @@ export const products = [
     },
     {
         _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 270,
         image: [p_img41],
         category: "Badminton Accessories",
@@ -590,8 +449,7 @@ export const products = [
     },
     {
         _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 300,
         image: [p_img42],
         category: "Badminton Accessories",
@@ -602,8 +460,7 @@ export const products = [
     },
     {
         _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 280,
         image: [p_img43],
         category: "Badminton Accessories",
@@ -626,7 +483,7 @@ export const products = [
     },
     {
         _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
+
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 290,
         image: [p_img45],
@@ -638,8 +495,7 @@ export const products = [
     },
     {
         _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 320,
         image: [p_img46],
         category: "Badminton Accessories",
@@ -650,7 +506,8 @@ export const products = [
     },
     {
         _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
+: "Kid Tapered Slim Fit Trouser",
+
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 300,
         image: [p_img47],
@@ -662,8 +519,7 @@ export const products = [
     },
     {
         _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 330,
         image: [p_img48],
         category: "Badminton Accessories",
@@ -674,8 +530,7 @@ export const products = [
     },
     {
         _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 310,
         image: [p_img49],
         category: "Badminton Accessories",
@@ -686,8 +541,7 @@ export const products = [
     },
     {
         _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
         price: 340,
         image: [p_img50],
         category: "Badminton Accessories",

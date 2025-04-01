@@ -1,0 +1,71 @@
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}*/
+
+body{
+    
+    background-image: url('https://i.pinimg.com/736x/36/84/94/368494c17e42d845e74814b3e8b5c081.jpg');
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+form {
+    background-color: #8B0000; /* Dark Red */
+    color: white;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+    color: #8b0000;
+    font-size: 30px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #600000;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: white;
+}
+
+button {
+    width: 100%;
+    background-color: white;
+    color: #8B0000;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #600000;
+    color: white;
+}

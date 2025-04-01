@@ -1,0 +1,125 @@
+.user-details-container {
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #4595ea;
+}
+
+
+.action-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.action-button.update {
+  background-color: #007bff;
+  color: white;
+  margin-left: 10px;
+}
+
+.action-button.update:hover {
+  background-color: #0056b3;
+}
+
+
+.action-button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.action-button.delete:hover {
+  background-color: #c82333;
+}
+
+
+.download-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+@media print {
+  .action-button {
+    display: none;
+  }
+
+  .download-button {
+    display: none;
+  }
+
+  .search-container {
+    display: none;
+  }
+
+  th:nth-child(10),
+  td:nth-child(10) {
+    display: none;
+  }
+  
+  .print-header {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .print-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .print-header .report-date {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+  }
+
+
+  .print-footer {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    color: #555;
+  }
+  table thead tr {
+    background-color: #4595ea; 
+    color: white;              
+  }
+
+  table thead th {
+    padding: 10px;             
+  }
+}

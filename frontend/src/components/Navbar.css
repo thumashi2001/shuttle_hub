@@ -1,0 +1,23 @@
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: rgb(253, 250, 250);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: block;
+    margin-top: 40px;
+  
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(71, 8, 8);
+  }

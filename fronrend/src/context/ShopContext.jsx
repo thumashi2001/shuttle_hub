@@ -13,7 +13,6 @@ const ShopContextProvider = (props)=>{
     const [showSearch,setShowSearch]=useState(false)
     const [cartItems,setCartItems] =useState({});
     const navigate = useNavigate();
-    
 
 
     const addToCart =async (itemId,size) =>{
@@ -78,7 +77,7 @@ const getCartCount =() =>{
     const value = {
            products,currency,delivery_fee,
            search,setSearch,showSearch,setShowSearch,
-           cartItems,addToCart,setCartItems,
+
            getCartCount,updateQuantity,
            getCartAmount,navigate
 
@@ -89,4 +88,4 @@ const getCartCount =() =>{
         </ShopContext.Provider>
     )
 }
-export default ShopContextProvider;
+
